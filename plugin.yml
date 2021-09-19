@@ -1,0 +1,11 @@
+main: x.KenKOfficial.Chat.Main.Main
+version: 1.0-Beta
+name: xKenChat
+author: KenKOfficial
+description: Original KenKOfficial plugin
+website: https://discord.gg/2HDuZrEFTg
+
+commands:
+  chatclear:
+    aliases: [cc, clearchat]
+  chat:

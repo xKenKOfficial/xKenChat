@@ -1,0 +1,29 @@
+# You can set yourself a plugin prefix
+prefix: "&3&lxKenChat"
+
+# You can set a message if the player does not have a permissions
+no_permissions: "&8>> &cYou do not have access to this command!"
+
+# You can set a message if the player gave the wrong number of arguments, etc.
+Correct_Use:
+  Chat: "&8>> &7Correct use&8: &b/chat (on/off)"
+
+# In case of using the command to clean the chat.
+Message: "&8>> &cChat has been cleared of spam by&8: &b{Admin}&8!"
+
+# Here you can set a message for the administrator when using the command /cc, /chatclear etc...
+Message_Admin: "&8>> &cYou cleared the chat from spam!"
+
+# In case the operator uses a command to disable or enable chat.
+chat:
+  message:
+    disable: "&8>> &cChat has been disabled&8!"
+    enable: "&8>> &aChat has been activated&8!"
+    blocked: "&8>> &cCurrently chat is disabled and it is not possible to write on it!"
+
+# Here you can set how long the anti spam should take
+AntySpam_Timer: 3000
+
+# Here you can already set anti-spam
+AntySpam:
+  when_the_time_is_not_up: "&8>> &cYou type too fast!"
